@@ -1,4 +1,4 @@
-#PRUEBAS DE AUTOMATIZACIÓN DE PÁGINA WEB
+#PRUEBAS DE AUTOMATIZACIÓN DE PÁGINA WEB#
 
 El siguiente proyecto debe descargarse abrir en una IDE como Intellij y descargar las herramientas necesarias para correrlo.
 
