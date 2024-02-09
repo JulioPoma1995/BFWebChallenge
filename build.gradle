@@ -41,6 +41,16 @@ sonar {
     }
 }
 
+task projectupper {
+    group = 'Custom Tasks'
+    description = 'Task to get Project Name and Convert it to upper case'
+    doLast {
+        String projectName = project.name
+        println "Project Name: $projectName"
+        println "Upper case: ${projectName.toUpperCase()}"
+    }
+}
+
 
 // build.gradle
 subprojects {
