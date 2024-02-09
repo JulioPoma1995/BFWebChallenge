@@ -20,8 +20,13 @@ dependencies {
     testImplementation 'io.cucumber:cucumber-junit:4.2.0'
     testImplementation group: 'junit', name: 'junit', version: '4.12'
     testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
 }
 
+application {
+    mainClassName = 'java.runner.Runner'
+}
 test{
     systemProperty "cucumber.options", System.getProperty("cucumber.options")
     useJUnitPlatform()
