@@ -50,7 +50,6 @@ public class DemoblazePage extends BasePage{
 
     public void IngresarDatos(String usuario, String pass)throws InterruptedException{
     try {
-        Thread.sleep(600);
         write(usuarioText, usuario);
         write(passwordText,pass);
             }catch (NoSuchElementException e){
@@ -69,7 +68,6 @@ public class DemoblazePage extends BasePage{
 
     public void IngresarUsuario(String username, String password)throws InterruptedException{
         try {
-            Thread.sleep(600);
             write(useraccount, username);
             write(passaccount,password);
         }catch (NoSuchElementException e){

@@ -61,7 +61,6 @@ public class BasePage {
 
     public void scrolldown() throws InterruptedException{
        try {
-           Thread.sleep(3000);
        }catch (NoSuchElementException e){
            e.printStackTrace();
        }
